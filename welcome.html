@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sociorests</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Welcome to Sociorests!!</h2>
+  <p> Manage your events with Sociorests! </p>
+  <button id="myButton" class="btn btn-create events btn-lg">Create Events</button>
+  <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "http://localhost/front/event_upload.html";
+    };
+</script>
+  <button id="myButton1" class="btn btn-find events btn-lg">Find Events</button>
+  <script type="text/javascript">
+    document.getElementById("myButton1").onclick = function () {
+        location.href = "http://localhost/front/findeventsall.html";
+    };
+</script>
+  <button id="myButton3" class="btn btn-edit profile btn-lg">Edit profile</button>
+  <script type="text/javascript">
+    document.getElementById("myButton3").onclick = function () {
+        location.href = "http://localhost/front/edit_profile.html";
+    };
+</script>
+  <button type="button" class="btn btn-sign out btn-lg">Signout</button> 
+           
+  <img src="collage.jpg" class="img-thumbnail" alt="Cinque Terre" width="1200" height="550"> 
+  
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Sociorests</title>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/custom.css" rel="stylesheet" />
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Sociorests</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Log Out</a></li>
+      </ul>
+	  <ul class="nav navbar-nav">
+        <li><a href="findeventsall.html">Notifier</a></li>
+      </ul>
+      
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>	
+
+<div class="container">
+<div class="jumbotron">
+  <h1>Hope you have a great time attending the event!</h1>
+  <p></p>
+  <img src="project.jpg" class="img-thumbnail" alt="Cinque Terre" width="1000" height="500">
+  <p> Please spare a few moments for giving your feedback! </p>
+  <div>
+        <button id="myButton3" class="btn btn-edit profile btn-lg">Give Feedback!</button>
+  <script type="text/javascript">
+    document.getElementById("myButton3").onclick = function () {
+        location.href = "http://localhost/front/feedback1.html";
+    };
+</script>
+    </div>
+  
+
+</body>
+</html>
