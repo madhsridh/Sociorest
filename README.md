@@ -1,2 +1,2 @@
 # Sociorest
-Project aimed at helping like-minded people socialize
+Project was aimed at helping like-minded people socialize, based on their interests.
